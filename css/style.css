@@ -175,6 +175,9 @@
 html {
     font-family: "Inter Web", sans-serif;
     box-sizing: border-box;
+    /* anti-aliasing */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 @media (min-width: 769px) {
