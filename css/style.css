@@ -1,0 +1,286 @@
+/*---------------------------------------/*
+ # SETTINGS
+/*---------------------------------------*/
+
+/*---------------------------------------/*
+ # GENERIC
+/*---------------------------------------*/
+
+@font-face {
+    font-family: 'Inter Web';
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url("../fonts/Inter-Thin.woff2") format("woff2"),
+        url("../fonts/Inter-Thin.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Inter Web';
+    font-style: italic;
+    font-weight: 100;
+    font-display: swap;
+    src: url("../fonts/Inter-ThinItalic.woff2") format("woff2"),
+        url("../fonts/Inter-ThinItalic.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Inter Web';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url("../fonts/Inter-ExtraLight.woff2") format("woff2"),
+        url("../fonts/Inter-ExtraLight.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Inter Web';
+    font-style: italic;
+    font-weight: 200;
+    font-display: swap;
+    src: url("../fonts/Inter-ExtraLightItalic.woff2") format("woff2"),
+        url("../fonts/Inter-ExtraLightItalic.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Inter Web';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url("../fonts/Inter-Light.woff2") format("woff2"),
+        url("../fonts/Inter-Light.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Inter Web';
+    font-style: italic;
+    font-weight: 300;
+    font-display: swap;
+    src: url("../fonts/Inter-LightItalic.woff2") format("woff2"),
+        url("../fonts/Inter-LightItalic.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Inter Web';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../fonts/Inter-Regular.woff2") format("woff2"),
+        url("../fonts/Inter-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Inter Web';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../fonts/Inter-Italic.woff2") format("woff2"),
+        url("../fonts/Inter-Italic.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Inter Web';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("../fonts/Inter-Medium.woff2") format("woff2"),
+        url("../fonts/Inter-Medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Inter Web';
+    font-style: italic;
+    font-weight: 500;
+    font-display: swap;
+    src: url("../fonts/Inter-MediumItalic.woff2") format("woff2"),
+        url("../fonts/Inter-MediumItalic.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Inter Web';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("../fonts/Inter-SemiBold.woff2") format("woff2"),
+        url("../fonts/Inter-SemiBold.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Inter Web';
+    font-style: italic;
+    font-weight: 600;
+    font-display: swap;
+    src: url("../fonts/Inter-SemiBoldItalic.woff2") format("woff2"),
+        url("../fonts/Inter-SemiBoldItalic.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Inter Web';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("../fonts/Inter-Bold.woff2") format("woff2"),
+        url("../fonts/Inter-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Inter Web';
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: url("../fonts/Inter-BoldItalic.woff2") format("woff2"),
+        url("../fonts/Inter-BoldItalic.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Inter Web';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url("../fonts/Inter-ExtraBold.woff2") format("woff2"),
+        url("../fonts/Inter-ExtraBold.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Inter Web';
+    font-style: italic;
+    font-weight: 800;
+    font-display: swap;
+    src: url("../fonts/Inter-ExtraBoldItalic.woff2") format("woff2"),
+        url("../fonts/Inter-ExtraBoldItalic.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Inter Web';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url("../fonts/Inter-Black.woff2") format("woff2"),
+        url("../fonts/Inter-Black.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Inter Web';
+    font-style: italic;
+    font-weight: 900;
+    font-display: swap;
+    src: url("../fonts/Inter-BlackItalic.woff2") format("woff2"),
+        url("../fonts/Inter-BlackItalic.woff") format("woff");
+}
+
+/*---------------------------------------/*
+ # ELEMENTS
+/*---------------------------------------*/
+
+html {
+    font-family: "Inter Web", sans-serif;
+    box-sizing: border-box;
+}
+
+@media (min-width: 769px) {
+    html {
+        font-size: 1.5rem;
+    }
+}
+
+
+@media (min-width: 1201px) {
+    html {
+        font-size: 2rem;
+    }
+}
+
+*,
+*:before,
+*:after {
+    font-size: 1rem;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    background-color: darkblue;
+    color: lavender;
+    padding: 2rem;
+}
+
+*+* {
+    margin-top: 2rem;
+}
+
+h3+* {
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 1;
+    letter-spacing: -0.03em;
+    font-feature-settings: "cv11";
+}
+
+/*---------------------------------------/*
+ # OBJECTS
+/*---------------------------------------*/
+
+/*---------------------------------------/*
+ # COMPONENTS
+/*---------------------------------------*/
+
+.c-circled {
+    letter-spacing: .1em;
+    font-feature-settings: "ccmp";
+}
+
+.c-weights {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: flex-start;
+}
+
+.c-weights__item {
+    margin-top: 0;
+    flex: 1 1 12rem;
+}
+
+/*---------------------------------------/*
+ # UTILITIES
+/*---------------------------------------*/
+
+.u-fw-100 {
+    font-weight: 100;
+}
+
+.u-fw-200 {
+    font-weight: 200;
+}
+
+.u-fw-300 {
+    font-weight: 300;
+}
+
+.u-fw-400 {
+    font-weight: 400;
+}
+
+.u-fw-500 {
+    font-weight: 500;
+}
+
+.u-fw-600 {
+    font-weight: 600;
+}
+
+.u-fw-700 {
+    font-weight: 700;
+}
+
+.u-fw-800 {
+    font-weight: 800;
+}
+
+.u-fw-900 {
+    font-weight: 900;
+}
