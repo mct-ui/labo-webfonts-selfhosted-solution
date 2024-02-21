@@ -196,12 +196,12 @@ html {
 *,
 *:before,
 *:after {
-    font-size: 1rem;
     margin: 0;
     box-sizing: inherit;
 }
 
 body {
+    font-size: 1rem;
     margin: 0;
     background-color: darkblue;
     color: lavender;
@@ -220,7 +220,16 @@ h1 {
     font-size: 3rem;
     line-height: 1;
     letter-spacing: -0.03em;
-    font-feature-settings: "cv11";
+    /* font-feature-settings: "cv11"; */
+}
+
+h2 {
+    font-size: 1rem;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 1rem;
 }
 
 /*---------------------------------------/*
@@ -240,12 +249,19 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
 }
 
 .c-weights__item {
+    /* clear the margin from line 211 */
     margin-top: 0;
+
+    /* flex it */
     flex: 1 1 12rem;
+    /* = */
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 12rem;
 }
 
 /*---------------------------------------/*
